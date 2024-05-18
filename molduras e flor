@@ -1,0 +1,64 @@
+.container {
+  height: 400px;
+  width: 400px;
+  border: 10px solid lightblue;
+  position: relative;
+}
+
+.inner-container {
+  height: 380px;
+  width: 380px;
+  border: 10px solid purple;
+  position: relative;
+}
+
+.image {
+  height: 360px;
+  width: 360px;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+.text {
+  position: absolute;
+  top: 150px;
+  left: 100px;
+  font-size: 30px;
+  color: yellow;
+}
+
+.inner-container {
+  border: 10px solid red;
+  position: relative;
+}
+
+.frame {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 380px;
+  width: 380px;
+  border: 10px solid purple;
+  background-color: transparent;
+}
+
+.image {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  height: 360px;
+  width: 360px;
+  background-image: url(https://flores.culturamix.com/blog/wp-content/gallery/flor-amor-perfeito-2/Flor-Amor-Perfeito-6.jpg)
+  background-size: cover;
+}
+
+.text {
+  position: absolute;
+  top: 150px;
+  left: 100px;
+  font-size: 30px;
+  color: yellow;
+  font-weight: bold;
+  text-shadow: 2px 2px 4px black; /* Adiciona um efeito de sombra */
+}
